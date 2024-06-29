@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@300&family=Protest+Guerrilla&family=Roboto+Condensed:ital,wght@1,496&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  color: white;
+  padding: 0;
+}
+
+.container_lighth_mode {
+  color: black;
+  height: auto;
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+
+.container_dark_mode {
+  background-color: rgb(20, 18, 18);
+  color: whitesmoke;
+  height: auto;
+  min-height: 100vh;
+}
+
+.menu {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 4px solid black;
+}
+
+.menu > h2 {
+  font-size: 32px;
+}
+
+.countries_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 90px 0 50px 0;
+}
+.country_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  border: 3px solid gray;
+  height: 540px;
+  margin-top: 70px;
+  box-shadow: 1px 1px gray, -1em 0 0.4em gray;
+}
+
+.country_block:hover {
+  transition: cubic-bezier(0.23, 1, 0.32, 1);
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.country_block img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: brightness(85%);
+  filter: sepia(30%);
+  filter: contrast(60%);
+}
+
+.country_block h1 {
+  line-height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.country_block h3 {
+  line-height: 0%;
+  text-align: center;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+}
+
+.country_block p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 30px;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container_search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  outline: 2px solid black;
+}
+
+.container_search input {
+  width: 200px;
+  height: 40px;
+  font-size: 24px;
+  padding: 12px;
+  font-family: inherit;
+  outline: none;
+  border: none;
+}
+.container_search svg {
+  width: 30px;
+  height: 40px;
+}
+
+.container_filter select {
+  width: 200px;
+  height: 40px;
+  font-family: inherit;
+  font-size: 24px;
+  outline: none;
+}
+
+select > option {
+  background-color: rgb(7, 7, 7);
+  color: white;
+  border: 0;
+  font-size: 24px;
+  padding-right: 15px;
+  height: 31px;
+  width: 220px;
+}
+
+.found_error {
+  font-size: 50px;
+  color: white;
+  background-color: brown;
+}
+
+.event_not_found {
+  margin-top: 270px;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.event_not_found p {
+  text-align: center;
+  font-size: 44px;
+}
+
+.event_not_found svg {
+  width: 60px;
+  height: 60px;
+}
+
+.country_page_block {
+  color: black;
+}
+
+.containerPage_lighth_mode button {
+  margin-top: 80px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.containerPage_dark_mode button {
+  margin-top: 80px;
+  background-color: rgb(138, 132, 132);
+  color: aliceblue;
+  box-shadow: none;
+}
+
+.containerPage_dark_mode,
+.containerPage_lighth_mode button:hover {
+  color: aliceblue;
+  background-color: rgb(75, 71, 71);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+
+.country_block_el {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.country_block_el img {
+  width: 700px;
+  height: 500px;
+}
+
+.country_page_buttons button {
+  width: 70px;
+}
+
+.containerPage_lighth_mode {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  height: auto;
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+
+.containerPage_dark_mode {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(12, 10, 10);
+  color: whitesmoke !important;
+  height: auto;
+  min-height: 100vh;
+}
+
+.containerPage_dark_mode .country_page_block h2,
+h1 {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.containerPage_light_mode .country_page_block h2,
+h1 {
+  color: black;
+  font-size: 30px;
+}
+
+.country_page_block h1,
+h2 {
+  color: white;
+}

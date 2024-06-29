@@ -1,0 +1,94 @@
+.active {
+  color: rebeccapurple;
+  background-color: rgb(45, 107, 107);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container_idicator_questions {
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.container_idicator_questions p {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(45, 107, 107);
+  color: aliceblue;
+  font-size: 24px;
+}
+
+.container_inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.container_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20;
+}
+
+.container_input label {
+  width: 150px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.container_input input {
+  width: 270px;
+  height: 40px;
+  padding: 12px;
+  outline: none;
+  font-size: 22px;
+}
+
+.container_buttons {
+  display: flex;
+  gap: 30px;
+}
+.container_buttons button {
+  width: 200px;
+}
+
+.container_result {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_result_answers {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.container_result_answer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container_result_answer p {
+  font-size: 24px;
+  width: 150px;
+  align-items: center;
+}

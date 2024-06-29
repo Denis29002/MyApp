@@ -1,0 +1,40 @@
+.Counter {
+  font-size: 56px;
+  margin: 120px auto;
+  padding: 12px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 25px;
+  gap: 30px;
+}
+
+/* .increment {
+  width: 120px;
+  height: 70px;
+  background-color: blue;
+  color: aliceblue;
+}
+
+.decrement {
+  width: 120px;
+  height: 70px;
+  background-color: red;
+  color: aliceblue;
+} */
+
+/* .Decrement:hover {
+  background-color: rgb(77, 21, 21);
+  cursor: pointer;
+}
+
+.Increment:hover {
+  background-color: rgb(33, 33, 95);
+  cursor: pointer;
+} */
+
+.Count {
+  border: 1px solid gray;
+  text-align: center;
+}

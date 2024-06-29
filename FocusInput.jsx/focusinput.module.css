@@ -1,0 +1,23 @@
+.auth_container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  height: 40px;
+  align-items: center;
+  color: aliceblue;
+  background-color: rgb(128, 77, 175);
+  font-size: 20px;
+  border: 0;
+  box-shadow: 3px 3px rgb(56, 51, 51), -1em 0 0.4em;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(79, 33, 122);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

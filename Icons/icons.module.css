@@ -1,0 +1,18 @@
+.icons_item {
+  display: flex;
+  font-size: 46px;
+}
+
+.icons {
+  display: flex;
+  width: 350px;
+  margin: 40px auto;
+
+  flex-wrap: wrap;
+}
+
+.icons_item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
