@@ -1,0 +1,47 @@
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_items {
+  margin-top: 70px;
+}
+
+.product_item {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 700px;
+  height: 60px;
+  border: 1px solid gray;
+}
+
+.product_item p {
+  width: 70px;
+}
+
+.product_item button {
+  border: none;
+  background-color: red;
+  padding: 8px;
+  color: white;
+}
+
+.product_item button:hover {
+  cursor: pointer;
+  background-color: rgb(221, 165, 165);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.product_result {
+  font-size: 26px;
+  border: 1px solid gainsboro;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}

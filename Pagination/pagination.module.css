@@ -1,0 +1,11 @@
+.pagination button {
+  padding: 8px;
+  border: 1px solid gainsboro;
+  background-color: antiquewhite;
+  color: blue;
+}
+
+.pagination button:hover {
+  cursor: pointer;
+  background-color: bisque;
+}

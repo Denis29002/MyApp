@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border: 1px solid bisque;
+  background-color: antiquewhite;
+  padding: 40px;
+  border-radius: 30px;
+  flex-direction: column;
+  margin-top: 100px;
+  height: auto;
+}
+
+.container_inputs {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-direction: column;
+}
+
+.container_inputs label {
+  font-size: 24px;
+}
+
+.container_inputs input {
+  padding: 12px;
+  font-size: 20px;
+}
+
+.container_input_text {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.button_add_item {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(68, 68, 224, 0.795);
+  color: white;
+  font-size: 20px;
+}
+
+.button_add_item:hover {
+  background-color: rgb(55, 55, 167);
+  cursor: pointer;
+}
+
+.container_items {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.container_item {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(73, 73, 197);
+  border-radius: 20px;
+  width: 250px;
+  height: 40px;
+  background-color: rgb(73, 73, 197);
+}
+
+.container_item button {
+  border: none;
+  background-color: rgb(73, 73, 197);
+  font-size: 28px;
+}
+
+.container_item button:hover {
+  cursor: pointer;
+}
+
+.active_button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgb(136, 30, 62);
+  border-radius: 20px;
+  width: 250px;
+  height: 40px;
+  background-color: rgb(102, 26, 32);
+}
+
+.active_button button {
+  border: none;
+  background-color: rgb(102, 26, 32);
+  font-size: 28px;
+}
+
+.active_button button:hover {
+  cursor: pointer;
+}

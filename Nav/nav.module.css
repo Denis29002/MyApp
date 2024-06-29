@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+}
+.container_menu p {
+  font-size: 24px;
+  color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container_menu p:hover {
+  text-decoration: underline 2px solid gray;
+  cursor: pointer;
+  color: blueviolet;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1);
+}

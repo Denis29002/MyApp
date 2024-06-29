@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.container {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.quest_container {
+  background-color: beige;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.quest_container_settings label {
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+.quest_container_settings input {
+  accent-color: red;
+}
+
+.line {
+  border: 2px solid black;
+  height: 100%;
+}
+
+.container_buttons {
+  margin-right: 100px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container_buttons button:first-child {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.container_buttons button:first-child:hover,
+.container_buttons button:last-child:hover {
+  background-color: grey;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.container_buttons button:last-child {
+  width: 250px;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.container_questinons {
+  align-items: center;
+  display: flex;
+  width: 200px;
+  font-size: 20px;
+  flex-direction: row;
+}

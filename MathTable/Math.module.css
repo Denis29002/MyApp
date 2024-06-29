@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+table {
+  border: 3px solid aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  font-size: 38px;
+
+  width: 50px;
+  height: 50px;
+  border: 2px solid aquamarine;
+}
+
+td:hover {
+  background-color: rgb(124, 170, 155);
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.active {
+  background-color: blue;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container_stars {
+  margin-top: 100px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  cursor: none;
+}
+
+.container_star:hover {
+  cursor: pointer;
+  outline: none;
+  color: rebeccapurple;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.container_star,
+.active_container_star {
+  font-size: 70px;
+  cursor: pointer;
+}
+
+.active_container_star {
+  color: yellow;
+}
+
+.container_comment {
+  font-size: 40px;
+  font-weight: 600;
+}
